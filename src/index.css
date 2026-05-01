@@ -1,10 +1,10 @@
 @import "tailwindcss";
 
 @theme {
-  --color-brand-primary: #0a0a2a;
-  --color-brand-accent: #ffcc00;
-  --color-brand-accent-hover: #e6b800;
-  --color-brand-muted: #f9fafb;
+  --color-brand-primary: #0f1130;
+  --color-brand-accent: #f4d03f;
+  --color-brand-accent-hover: #e1bc2a;
+  --color-brand-muted: #f4f6f8;
   
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-display: "Space Grotesk", sans-serif;
@@ -16,7 +16,7 @@
   }
 
   body {
-    @apply font-sans text-brand-primary bg-white;
+    @apply font-sans text-[#0f1130] bg-white antialiased;
   }
   
   h1, h2, h3, h4, h5, h6 {
